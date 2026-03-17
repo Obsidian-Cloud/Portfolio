@@ -1,0 +1,6 @@
+Flask
+SQLAlchemy
+Flask-JSON
+cerberus
+zope.component
+zope.interface
