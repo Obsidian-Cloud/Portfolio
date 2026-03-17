@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="eng" class="default-style">
+
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="../static/styles.css">
+        <script type="module" src="../static/js/main.mjs" defer></script>
+
+        <title>Keith Baranzini | Software Engineer & Python Developer</title>
+
+        <meta name="description" content="Keith Baranzini's portfolio - a Software Engineer specializing in Python, Flask, and complex system architecture. Inspired by Uncle Bob and Martin Fowler.">
+
+        <meta name="keywords" content="Baranzini, Keith Baranzini, Software Engineer, Python Developer, Flask, SQL, ORM, Javascript, Typescript, HTML, CSS, Fullstack, Web Development">
+
+        <link rel="canonical" href="https://baranzini.dev" />
+
+        <meta property="og:title" content="Keith Baranzini | Software Engineer">
+        <meta property="og:description" content="Explore my portfolio and technical projects.">
+        <meta property="og:url" content="https://baranzini.dev">
+        <meta property="og:type" content="website">
+
+        {% block head %}{% endblock %}
+
+    </head>
+
+    
+    <body>
+        
+        <div id="nav">
+            <a id="nav-home" href="/">Home</a>
+
+            <a id="nav-contact-me" href="/contact-me">Contact Me</a>
+
+            <div class="dropdown">
+            <button class="dropbtn">Projects</button>
+                <div class="dropdown-content">
+                    <a href="/ormlabs/">ORM Labs</a>
+                    <a href="https://github.com/Obsidian-Cloud/portfolio" target="_blank">Portfolio open-source</a>
+                    <a href="https://github.com/Obsidian-Cloud/EZModuleManager" target="_blank">Service Locator</a>  
+                </div>
+            </div>
+
+            <a id="nav-portfolio-diagram" href="/portfolio-diagram/">Portfolio Diagram</a>
+
+        </div>
+    
+        <main id="layout-main">
+        
+            <div id="layout-main-title">{% block title %}{% endblock %}</div>    
+            
+            <div>
+                {% block body %}{% endblock %}
+            </div>
+        
+        </main>
+
+    </body>
+
+</html>
