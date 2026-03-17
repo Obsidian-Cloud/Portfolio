@@ -2,6 +2,10 @@
 My name is Keith, and thanks for stopping by. This README should give you a clear look into why I built this application and my approach to software design. I’m a lifelong learner who loves diving into the 'how' and 'why' of code. Without further ado..
 
 
+# What does the application do?
+My portfolio is a live, interactive database app where you can create, update, and delete entries in real time.
+
+
 # What is it?
 Two words. 'Clean Architecture'. This project is an implementation of Uncle Bob's architectural philosophy, designed to be independent. It serves as a blueprint for building scalable, testable, and maintainable software.
 
